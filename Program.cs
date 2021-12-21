@@ -47,7 +47,7 @@ namespace NbaPlayers
 
         public  List<NbaPlayer> GetNbaPlayersWithHeigth(int heigth, List<NbaPlayer> players)
         {
-            return players.Where((p => Convert.ToInt32(p.h_in) == heigth)).ToList();
+           return players.Where((p => Convert.ToInt32(p.h_in) == heigth)).ToList();
         }
     }
 
